@@ -22,6 +22,7 @@ componentDidMount() {
 render() {
   return (
     <div className="App">
+      <input type='search' placeholder='search monsters' />
       <CardList monsters={this.state.monsters} />    
     </div>
   );
